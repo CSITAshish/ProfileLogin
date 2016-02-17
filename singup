@@ -1,0 +1,324 @@
+<html>
+<head>
+ 
+#footer {
+    max-width: 980px;
+    text-align: center;
+    margin: auto;
+}
+
+.wrapperHeader{
+    position: relative;
+    background-image:url(logo.jpg);
+}
+
+.header{
+    left: 100%;
+    margin-left: -500px;
+    background:url(mapimage.jpg) no-repeat;
+    width:100%;
+    height:200px;
+}
+</head>
+
+<body  bgcolor="#E6E6FA">
+
+
+
+
+ 
+	<h1 align = "center" > <strong><em> <font color='PURPLE'>  LOGIN TO VIEW LOCATION OF</br> INDIA  </font> </strong></em> </h1>
+
+<form action="demo_form.asp" method="get" autocomplete="on" align="center">
+  
+User name: <input type="text" name="fname" required="required" placeholder="Username"></br></br>
+ 
+ 
+
+Password : <input type = "password" name = "password"  placeholder="PassWord" required="required" ></br></br>
+
+Confirm Password : <input type = "password" name = "password"  placeholder="ConfirmPassWord" required="required" ></br></br>
+ 
+          <input type="checkbox"  /> 
+          <label >Keep me logged in</label></br></br>
+ 
+
+    
+<a href="index.html"  required="required">
+<form method="get" action = "index.html">
+<input type="button" value= " LOG IN"> </a>
+
+
+
+
+
+ <br/>
+  <button type="reset" value="Reset"  > Reset  </button>
+
+<button type="cancel" value = "cancel" >Cancel</button>
+
+
+ 
+</form>
+
+<div align='center'>
+<h1><strong><em><font colour='RED'>  CONTACT US </font></strong></em> </h1>
+
+<hr>
+<hr>
+<h3 style="color:blue;">*Describe Your Requirements in Detail</h3>
+
+<textarea rows="8" cols="70" placeholder="COMMENT"
+></textarea>
+
+<h4 style="color:blue;">*Please Fill Your Contact Information</h4>
+
+
+<form action="demo_form.asp" method="get" autocomplete="on">
+
+
+
+ <select name="Saluation" >
+<option value="na">Mr.</option>
+          
+          <option value="1">Mrs.</option>
+		  
+		  </select>
+  
+First name: <input type="text" name="fname" required="required" placeholder="Firstname"></br></br>
+ 
+ Last name: <input type="text" name="lname" placeholder="LastName" required="required"><br></br>
+
+  Country :    <select name="Country">
+  
+  
+   <option value="na">Country</option>
+          
+          <option value="1">INDIA</option>
+          
+         <option value="2">AUSTRALIA</option>
+         <option value="3">BRAZIL</option>
+         <option value="4">AMERICA</option>
+         <option value="5">PAKISTAN</option>
+         <option value="6">UAE</option></select>
+		 
+		 Age : <input type="text" name="aname" required="required" placeholder="Age"></br></br>
+               
+  
+
+Email : <input type = "email" name="email" placeholder = "Email" required = "required">
+Phone Number : <input type="number" name="number" placeholder = " Number"  required="required"></br></br>
+
+Appointment Date: <select name="Appoinment Date:">
+
+
+ <option value="na">Month</option>
+          
+          <option value="1">January</option>
+          
+         <option value="2">February</option>
+         <option value="3">March</option>
+         <option value="4">April</option>
+         <option value="5">May</option>
+         <option value="6">June</option>
+         <option value="7">July</option>
+         <option value="8">August</option>
+         <option value="9">September</option> 
+         <option value="10">October</option>
+         <option value="11">November</option>
+         <option value="12">December</option>
+         </select>
+
+
+
+         <select name="day" id="day">
+         <option value="na">Day</option>
+<option value="1">1 to 5</option>
+<option value="2">6 to 15</option>
+<option value="3">16 to 21</option>
+<option value="4">22 to 26</option>
+<option value="5">27 to 31</option>
+
+
+
+
+         </select>
+         <select name="year" id="year">
+         <option value="na">Year</option>
+         <option value="1">1990</option>
+<option value="1">1991</option>
+<option value="2">1992</option>
+<option value="3">1993</option>
+<option value="4">1994</option>
+<option value="5">1995</option>
+<option value="6">1996</option>
+<option value="7">1997</option>
+<option value="8">1998</option>
+<option value="9">1999</option>
+<option value="10">2000</option>
+
+</select></br>
+
+</br>
+Address :<textarea rows="3" cols="40" 
+
+placeholder="ADDRESS"></textarea>
+
+<h5>Prove you're not a robot
+</br>
+6
+  
++
+  
+1 =<input type="text" name="lname"  required="required">
+ </h5>
+
+</br>
+
+
+
+ 
+          <input type="checkbox"  /> 
+          <label >Continue logged In</label></br></br>
+
+  
+<a href="index.html">SUBMIT PRESS HERE</a> <br/></br>
+
+  <button type="reset" value="Reset">Reset</button>
+
+<button type="cancel" onclick="javascript:window.location='http://stackoverflow.com';">Cancel</button>
+
+
+</form>
+
+
+
+</table>
+</div>
+
+
+<br>
+
+COMMENT : 
+ </br>
+<textarea rows="6" cols="70" >
+
+"Princess" December 27,2015
+
+"This" article is awesome . The site is perfect . What a 
+wonderful postion . I love the everything the branding .
+
+</textarea>
+
+</br>
+<textarea rows="6" cols="70" >
+
+"Dude" May 29,2015   
+
+"There are risks and costs to a program of action , but they are far less
+than the long-range risks and costs of comfortable in action "
+
+</textarea>
+</br>
+<textarea rows="6" cols="70" >
+
+"BUDDY"  August 04,2015
+
+"This is such a great siple design . I Love It ."
+
+
+</textarea>
+</br>
+
+</br></br>
+
+<div class="wrapperHeader">
+    <div >
+             <img  align="center" src="images.png" width="30%" height="200" />
+
+           <h3 style="background-color:lightgrey;><font face="Verdana">Goa is a state in western India with coastlines stretching along the Arabian Sea.</br> Its long history as a Portuguese colony prior to 1961 is evident in its preserved 16th-century churches and the area’s tropical spice plantations. </br>Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to laid-back fishing villages such as Agonda.</br>
+Area: 3,702 km²</br>
+Founded: May 29, 1987, 10:00 PM</br>
+Population: 1.817 million (2012)</br>
+Capitals: Panaji (Executive Branch), Porvorim (Legislature), Mumbai (Judiciary)</font></h3></br>
+    
+
+
+</div> 
+</div></br></br>
+
+
+
+<div align="right">
+<img  src="img.jpg" height= "275" width= "335" />
+<h3 style="background-color:lightgrey;><font face="Verdana">British man becomes first person to visit all 201 countries...</br> WITHOUT using a plane
+Graham Hughes, 33, used buses, taxis,</br> trains and his own two feet to travel 160,000 miles in exactly 1,426 days >- all on a shoestring of just $100 a week</br
+
+
+</br>
+He says: 'I think I wanted to show that the world is not some big, scary place, but in fact is full of people who want to help you'
+
+</br>
+
+</font></h3>
+
+</div></br>
+
+
+
+<div align="middle">
+<img  src="Royal.jpg" height= "275" width= "335" />
+<h3 style="background-color:lightgrey;><font face="Verdana">Royal Tourist (1905–1909) was an American Thoroughbred racehorse who won the American Classic Preakness Stakes in 1908 and who later that year set a World Record time in winning the Winters Handicap at Emeryville Race Track in Oakland, California.</font></h3>
+
+</div></br></br>
+</br>
+
+
+
+
+<div  ><div class="wrapperfooter">
+    <div class="footer">
+             <img src="Picture.png" width="100%" height="300" />
+    </div>
+  
+<div ><p align=right>          <br>  <br>   Posted by: Ashish Tripathi   </br></p>
+
+
+  <p align=right>Contact information: <a href="mailto:ashishtripathi005@gmail.com">ashishtripathi005@gmail.com</a></p>
+
+<p align=right> Phone Number : <a href ="contact" > 8755519366</a>
+</p>
+
+
+</div>
+
+
+<!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('9792-871-10-9164');/*]]>*/</script><noscript><a href="https://www.olark.com/site/9792-871-10-9164/contact" title="Chat us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+
+</body>
+
+</html>
+
+
+
+
+
